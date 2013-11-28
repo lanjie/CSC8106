@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="csc8106-webapp-demo:war exploded">
+    <output-path>$PROJECT_DIR$/target/ROOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="csc8106-webapp-demo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="csc8106-webapp-demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:0.31" />
+          <element id="library" level="project" name="Maven: org.apache.oltu.oauth2:org.apache.oltu.oauth2.common:0.31" />
+          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.8" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
