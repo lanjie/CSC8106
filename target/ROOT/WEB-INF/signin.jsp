@@ -1,5 +1,7 @@
-<html>
 <body>
-<h2>Sign In</h2>
+      <form action="login">
+      username:<input type="text" name="username"><br>
+      password:<input type="password" name="password"><br>
+      <input type="submit"> 
+      </form>
 </body>
-</html>
