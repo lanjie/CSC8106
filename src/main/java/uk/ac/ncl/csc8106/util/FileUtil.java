@@ -150,8 +150,8 @@ public class FileUtil {
 	
 	
 	public static void main(String[] args) {
-		FileUtil.getInstance().writeInfoToFile("c:/userinfo.txt", "zhangsan#123456#张三#464526972@qq.com");
-		FileUtil.getInstance().writeInfoToFile("c:/userinfo.txt", "lisi#123456#张三#464526972@qq.com");
+//FileUtil.getInstance().writeInfoToFile("c:/userinfo.txt", "zhangsan#123456#张三#464526972@qq.com");
+	//	FileUtil.getInstance().writeInfoToFile("c:/userinfo.txt", "lisi#123456#张三#464526972@qq.com");
 		FileUtil.getInstance().writeInfoToFile("c:/userinfo.txt", "wangwu#123456#张三#464526972@qq.com");
 		
 		String userinfo = FileUtil.getInstance().readInfoFromFile("c:/userinfo.txt","wangwu", "123456");

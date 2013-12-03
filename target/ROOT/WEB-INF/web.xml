@@ -27,22 +27,32 @@
     
     <servlet-mapping>
         <servlet-name>SignInServlet</servlet-name>
-        <url-pattern>/signin</url-pattern>
+        <url-pattern>/SignInServlet</url-pattern>
     </servlet-mapping>
     
-        <servlet>
+    <servlet>
         <servlet-name>SignInServlet</servlet-name>
-        <servlet-class>SignInServlet</servlet-class>
+        <servlet-class>uk.ac.ncl.csc8106.servlet.SignInServlet</servlet-class>
     </servlet>
     
-        <servlet-mapping>
+    <servlet-mapping>
         <servlet-name>SignUpServlet</servlet-name>
-        <url-pattern>/signup</url-pattern>
+        <url-pattern>/SignUpServlet</url-pattern>
     </servlet-mapping>
     
-        <servlet>
+    <servlet>
         <servlet-name>SignUpServlet</servlet-name>
-        <servlet-class>SignUpServlet</servlet-class>
+        <servlet-class>uk.ac.ncl.csc8106.servlet.SignUpServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>SignOutServlet</servlet-name>
+        <url-pattern>/SignOutServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SignOutServlet</servlet-name>
+        <servlet-class>uk.ac.ncl.csc8106.servlet.SignOutServlet</servlet-class>
     </servlet>
     
     <welcome-file-list>
