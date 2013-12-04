@@ -9,6 +9,10 @@ public class User {
 	private String name;
 	
 	private String password;
+ 
+	public User(){
+		
+	}
 
 	public String getUsername() {
 		return username;
