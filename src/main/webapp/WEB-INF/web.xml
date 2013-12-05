@@ -55,6 +55,16 @@
         <servlet-class>uk.ac.ncl.csc8106.servlet.SignOutServlet</servlet-class>
     </servlet>
     
+    <servlet-mapping>
+        <servlet-name>CallbackServlet</servlet-name>
+        <url-pattern>/CallbackServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CallbackServlet</servlet-name>
+        <servlet-class>uk.ac.ncl.csc8106.servlet.CallbackServlet</servlet-class>
+    </servlet>
+    
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>

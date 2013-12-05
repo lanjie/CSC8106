@@ -43,7 +43,7 @@ public class SignInServlet extends HttpServlet {
 		if(username.equals(user.getUsername()) && password.equals(user.getPassword())) {
 			response.sendRedirect("index.jsp");
 		} else {
-			request.setAttribute("errMsg", "<script>alert('ÕËºÅ»òÃÜÂë´íÎó£¬ÇëÖØĞÂÊäÈë!')</script>");
+			request.setAttribute("errMsg", "<script>alert('Incorrect username or password!')</script>");
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 		}
 	}
